@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<style>
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+}
+</style>
+<head>
+    <title>University Application Page</title>
+</head>
+
+<body style="background-color:lightgrey;">
+    <div style="background-color:#2b6777; color:white; text-align:center; padding:1px;">
+        <h1>University Application Portal</h1>
+        </div>
+        
+        <div class="mycontainer">
+         <nav>
+        <a href="#form"><div style="background-color:black;">
+        <p style="color:white; padding-top:1px;text-align:center;">Apply Now</p></div></a>
+   
+        <a href="#info"><div style="background-color:grey;"><p style="color:white; padding-top:1px;text-align:center;">Information</p></div></a>
+        
+        <a href="#info"><div style="background-color:darkgrey;"><p style="color:white; padding-top:1px;text-align:center;">Service</p></div></a>
+    </nav>
+    </div>
+    <img src="https://www.utoronto.ca/sites/default/files/2025-11/utogether-home-fall-2024.png" alt="University Image" style="float:right; margin-right:10px;" width="500" height="200">
+
+    <p><b>Welcome</b> students! Apply to your dream university.</p>
+       <p>
+Welcome to the University Application Portal, your gateway to higher education and a brighter future. 
+Our platform is designed to help students easily explore programs, compare universities, and submit applications in a simple and efficient way. 
+Whether you are interested in science, engineering, or business, we provide the tools and guidance you need to take the next step in your academic journey. 
+Start your application today and move closer to achieving your dreams.
+</p><br><br><br><br>
+        <hr>
+
+    <section>
+
+        <article id="info">
+            <h2>Why Choose Us?</h2>
+            <img src="https://www.utoronto.ca/sites/default/files/styles/focal_750x500/public/2026-02/55062213624_e5a2545e3e_o-crop.png?h=9e499333&itok=kwWV7gDw" alt="University Image" style="float:left; margin-right:10px;" width="500" height="200">
+            <p>
+We are committed to making the university application process simple, fast, and reliable for every student. 
+Our platform provides clear information about programs, easy-to-use application tools, and helpful guidance at every step. 
+With a focus on quality education and student success, we connect you with top universities and help you make the best choice for your future. 
+Choose us for a smooth and trusted application experience.
+</p><br><br><br><br><br><br><br><br>
+<hr>
+<h2>University Campus Tour</h2>
+
+    <iframe width="400" height="200"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="YouTube video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+            <h3>Available Programs:</h3>
+            <details>
+    <summary>Computer Science</summary>
+    <p>This program teaches programming, software development, and problem solving.</p>
+</details>
+
+<details>
+    <summary>Engineering</summary>
+    <p>This program focuses on design, construction, and technology.</p>
+</details>
+
+<details>
+    <summary>Business</summary>
+    <p>This program covers management, marketing, and entrepreneurship.</p>
+</details>
+<hr>
+            <h3>Application Steps:</h3>
+            <pre>
+Step 1: Fill the form
+Step 2: Submit documents
+Step 3: Wait for approval
+</pre>    
+            <p>Visit <a href="https://www.google.com" >More Info</a></p>
+        </article>
+
+<hr>
+        <aside>
+            <h3>Important Note</h3>
+            <p><mark>Deadline:</mark> June 30</p>
+        </aside>
+<hr>
+    </section>
+
+    <h2>Available Universities</h2>
+    <img src="https://www.utoronto.ca/sites/default/files/2021-11/hart-house-quad.jpeg" alt="University Image" style="float:right; margin-right:10px;" width="700" height="400">
+
+    <table border="1">
+        <caption>University List</caption>
+        <colgroup>
+            <col style="background-color: rgb(105, 63, 63)"/>
+            <col style="background-color: rgb(54, 93, 99)"/>
+            <col style="background-color: rgb(37, 31, 71)"/>
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Ranking</th>
+        </tr>
+        <tr>
+            <td>Hilcoe Computer Science and Technology</td>
+            <td>Addis Ababa</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Addis Ababa University</td>
+            <td>Addis Ababa</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <h2>Want to apply?</h2>
+<h3>Login</h3>
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<button>Login</button>
+<p>Don't  have an account? reate an account, <a href="https://www.google.com"><i>Sign in</i></a></p>
+    <h2>How to Apply (Watch Video)</h2>
+
+<video width="400" controls>
+    <source src="apply.mp4" type="video/mp4">
+</video><br><br>
+<h3>Video not working?</h3>
+<p>Try audio:<br><br>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></p>
+<h2 id="form">Application Form</h2>
+    <form action="/action_page.php">
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password"><br><br>
+
+        <label>Choose Program:</label><br>
+        <select>
+            <option>Computer Science</option>
+            <option>Engineering</option>
+            <option>Business</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+        <label>Country:</label>
+        <select>
+            <option>Ethiopia</option>
+            <option>USA</option>
+        </select><br><br>
+        <label>Skills:</label><br>
+        <input type="checkbox"> Programming
+        <input type="checkbox"> Mathematics<br><br>
+
+        <label>Write about yourself:</label><br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Apply">
+        <input type="reset" value="Clear">
+
+    </form>
+    <p><b>Application Progress:</b></p>
+<progress value="10" max="100"></progress>
+<hr>
+   
+    <footer>
+    <h3>Contact Us</h3>
+<p>Email:<a href="https://www.google.com">info@university.com</a></p>
+<p>Phone: +251-912-345-678</p>
+<hr>
+        <p>&copy; 2026 University Application System</p>
+    </footer>
+
+</body>
